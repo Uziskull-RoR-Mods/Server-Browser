@@ -1,0 +1,8 @@
+{
+    "name": "Server Browser",
+    "description": "A simple multiplayer server browser",
+	"internalname": "serverBrowser",
+    "version": "0.3.0",
+    "author": "Uziskull",
+    "mpcompat": true
+}

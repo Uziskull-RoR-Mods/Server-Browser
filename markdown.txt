@@ -1,0 +1,30 @@
+More of a prototype than anything else, this mod allows you to browse servers created and shared by other users with the mod.
+Servers are ordered by most recently created (times are in UTC+0).
+
+Please report any bugs, errors, unintended behavior or complaints so I can fix it, thank you! (@Uziskull 🔧#9341)
+
+# Reminder:
+Servers are only accessible if the host has forwarded his ports. This mod **does not** forward your ports, nor does it display proxied or otherwise modified IP addresses (like those of Hamachi, Evolve, etc).
+
+# Usage:
+- **Joining a server:**
+    1. In the main menu, select ``Start Online Co-op``.
+    2. You will see a display like the one below. Pressing ``Refresh`` will get the most recent servers available.
+    ![Server Browser](https://cdn.discordapp.com/attachments/325414004266762250/662319536195764250/1.png "Server Browser")
+    3. Read the IP of the server you want to connect to and type it in the fields above, like you usually would.
+- **Creating a server**:
+    1. In the main menu, select ``Start Online Co-op``.
+    2. Type your desired port and maximum number of players.
+        - **WARNING:** due to unaccessible variables, a workaround had to be introduced in order to get these values. When typing both fields (**mandatory** for the first time using the mod), please **do not paste text in** and confirm both the port and maximum number of players are correct with the debug text displayed in the upper left corner of the screen!
+        ![Debug Text](https://cdn.discordapp.com/attachments/325414004266762250/662322617994444821/3.png "Debug Text")
+    3. Press ``Host Game``, like you normally would.
+    4. Press ``Submit`` on the popup displayed in the upper-left corner of the character selection screen, like the one below. If no errors are displayed, congratulations! Your server is now displayed on other people's server browser **for the next 5 minutes**.
+    ![Submit Popup](https://cdn.discordapp.com/attachments/325414004266762250/662319554307031087/2.png "Submit Popup")
+    5. Your server will remain visible to everyone until one of these has happened:
+        - 5 minutes have passed;
+        - The lobby was cancelled;
+        - The game began.
+----
+# Planned features/roadmap:
+- Get important variables directly instead of using a workaround (not possible atm)
+- Joining servers by simply clicking instead of having to type (not possible atm)
